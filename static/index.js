@@ -343,11 +343,11 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 30) return '鸡你太美';
-    if (score <= 60) return '鸡你太太美';
-    if (score <= 100) return '鸡鸡鸡鸡鸡';
-    if (score <= 150) return '唱 跳 rap 篮球';
-    return '你就是蔡徐坤本人？';
+    if (score <= 30) return '李书勤你太美';
+    if (score <= 60) return '书勤你太太美';
+    if (score <= 100) return '李书勤嘲讽：100分都没有？';
+    if (score <= 150) return '我是大帅比';
+    return '你就是李书勤本人？';
 }
 
 function toStr(obj) {
